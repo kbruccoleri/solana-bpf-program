@@ -1,3 +1,5 @@
 /*-dump.txt
 /*.so
-/target/
+program/target/
+program/test-ledger/
+.idea/
