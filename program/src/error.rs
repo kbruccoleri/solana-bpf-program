@@ -9,6 +9,8 @@ pub enum EscrowError {
     InvalidInstruction,
     #[error("Not Rent Exempt")]
     NotRentExempt,
+    #[error("Expected Amount Mismatch")]
+    ExpectedAmountMismatch,
 }
 
 // defines conversion from our custom error to ProgramError
